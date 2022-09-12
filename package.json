@@ -1,0 +1,24 @@
+{
+  "name": "push-notification-example",
+  "version": "1.0.0",
+  "description": "Testing push notifications",
+  "main": "server.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thermalbarker/push-notification-example.git"
+  },
+  "author": "Thomas Barber",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/thermalbarker/push-notification-example/issues"
+  },
+  "homepage": "https://github.com/thermalbarker/push-notification-example#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "web-push": "^3.5.0"
+  }
+}
